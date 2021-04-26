@@ -257,3 +257,8 @@ variable "access_log_bucket_name" {
   default     = ""
   description = "Name of the S3 bucket where s3 access log will be sent to"
 }
+
+variable "access_log_bucket_name" {
+  type        = list 
+  description = "Stages to build"
+}
